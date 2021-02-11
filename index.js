@@ -6,7 +6,8 @@ const config = {
     chunk_size: 60000,
     gop_cache: true,
     ping: 30,
-    ping_timeout: 60
+    ping_timeout: 60,
+    allow_origin: '*'
   },
   http: {
     port: process.env.PORT || 8000,
